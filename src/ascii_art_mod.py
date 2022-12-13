@@ -80,8 +80,8 @@ class GegAsciiArt:
 
 if __name__ == '__main__':
     from sys import argv
-    for idx, el in enumerate(argv):
-        print(idx, el)
+    # for idx, el in enumerate(argv):
+    #     print(idx, el)
     ascii_art = GegAsciiArt(argv[1], argv[2])
     if len(argv) == 4:
         ascii_art.setup(argv[3])
