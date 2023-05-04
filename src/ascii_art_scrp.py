@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 from os import getcwd, sep
 from PIL import Image
 
-RES_PATH = sep.join(['C:','Users','g.raiano','Desktop','Archivio','Sviluppi','Python','DataMaster','Py4DataScience','resources'])
+my_pth = []
+RES_PATH = sep.join(my_pth)
 
 # jpg_list = ['StephanieWong', 'emma_stone', 'photo']
 jpg_list = ['photo_1', 'photo_2', 'photo_3', 'photo_4', 'photo_5']
